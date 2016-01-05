@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="customerBean" class="com.mkyong.common.Customer">
+
+		<constructor-arg type="java.lang.String" value="mkyong"/>
+						
+		<constructor-arg type="java.lang.String" value="188"/>
+			
+		<constructor-arg type="int" value="28"/>
+			
+
+        </bean>
+
+</beans>

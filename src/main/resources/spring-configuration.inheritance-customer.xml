@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="baseCustomer" abstract="true">
+		<property name="contry" value="USA" />
+	</bean>
+	<bean id="customer" parent="baseCustomer" class="by.spring.bean.configuration.inheritance.Customer">
+	
+	<!-- baseCustomer是abstract的，所以他的属性的值是可以覆盖的 -->
+	
+		<property name="contry" value="Japan" />
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+</beans>

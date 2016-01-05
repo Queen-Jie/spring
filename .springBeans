@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.7.2.201511260958-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/resources/SpringBeans.xml</config>
+		<config>src/main/resources/spring-common.xml</config>
+		<config>src/main/resources/spring-customer.xml</config>
+		<config>src/main/resources/spring-outputHelper.xml</config>
+		<config>src/main/resources/spring-constructor.xml</config>
+		<config>src/main/resources/spring-multiple-constructor.xml</config>
+		<config>src/main/resources/spring-inject-value-normal-way.xml</config>
+		<config>src/main/resources/spring-inject-value-shortCut.xml</config>
+		<config>src/main/resources/spring-inject-value-p-schema.xml</config>
+		<config>src/main/resources/spring-all-module.xml</config>
+		<config>src/main/resources/spring-customer-person.xml</config>
+		<config>src/main/resources/spring-customerService.xml</config>
+		<config>src/main/resources/spring-collections.xml</config>
+		<config>src/main/resources/spring-listFactoryBean-customer.xml</config>
+		<config>src/main/resources/spring-setFactoryBean-customer.xml</config>
+		<config>src/main/resources/spring-mapFactoryBean-customer.xml</config>
+		<config>src/main/resources/spring-injectDate-customer.xml</config>
+		<config>src/main/resources/spring-configuration.inheritance-customer.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

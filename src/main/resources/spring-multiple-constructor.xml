@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="customerBean" class="by.multipleconstrutor.Customer" >
+<!-- 
+<constructor-arg>
+			<value>mkyong</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<value>188</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<value>28</value>
+		</constructor-arg>
+		输出结果是name:mkyong
+		add： 28
+		age: 188
+ -->
+		<constructor-arg type="java.lang.String">
+			<value>mkyong</value>
+		</constructor-arg>
+		
+		<constructor-arg type="java.lang.String">
+			<value>188</value>
+		</constructor-arg>
+		
+		<constructor-arg type="int">
+			<value>28</value>
+		</constructor-arg>
+ <!--输出结果是name: mkyong
+add: 188
+age: 28 -->
+	</bean>
+
+
+</beans>
